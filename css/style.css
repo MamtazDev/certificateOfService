@@ -163,6 +163,15 @@ h1 {
     color: #09F;
 }
 
+.owl-theme .owl-controls .owl-page span {
+    background: #c4c4c4;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: #09F;
+}
+
 #owl-demo .reviewInner {
     padding: 60px 18px;
     border-radius: 32px;
@@ -189,3 +198,46 @@ h1 {
 }
 
 /* Client Section End */
+
+/* Video Section Start */
+.videoOutter {
+    padding: 140px 0;
+}
+
+.mBtn {
+    width: 10px;
+    z-index: 9999999;
+    height: 10px;
+    left: 99% !important;
+    top: -1%;
+}
+
+.videoInner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    max-width: 568px;
+}
+
+.btn:first-child:active {
+    border: none;
+}
+
+.playBtn {
+    margin: 120px 0;
+}
+
+.playBtn:hover {
+    stroke: #09F;
+    fill: red;
+}
+
+.videoOutter p {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Video Section End */

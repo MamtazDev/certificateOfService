@@ -14,7 +14,7 @@
     .reviewInner p{
         font-size: 16px;
     }
-    .reviewInner span{
+    .reviewInner span,.videoOutter p {
         font-size: 18px;
     }
 }
