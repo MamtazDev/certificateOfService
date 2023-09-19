@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.container {
+    max-width: 1420px;
+}
+
+
+/* Header Start */
+header {
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.navbar {
+    /* --bs-navbar-color: #A89B8A; */
+    padding: 25px 0;
+}
+
+
+.nav-link {
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link:hover {
+    color: #09F;
+}
+
+.nav-link:active {
+    color: #09F !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    /* padding-right: 0;
+    padding-left: 0; */
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.loginBtn {
+    padding: 10px 26px !important;
+    border-radius: 5px;
+    border: 1px solid #09F;
+    background: #FFF;
+    color: #222;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s ease-in-out;
+}
+
+.loginBtn:hover {
+    background: #09F;
+    color: #FFF;
+}
+
+.createBtn {
+    padding: 10px 30px !important;
+    border-radius: 5px;
+    border: 1px solid #09F;
+    background: #09F;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.4s ease-in-out;
+}
+
+.createBtn:hover {
+    background-color: #FFF;
+    color: #222;
+    stroke: #09F;
+}
+
+/* Header End */
+
+/* hero Sectio Start */
+
+.hero {
+    padding: 90px 0 120px 0;
+}
+
+
+h1 {
+    color: #09F;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+}
+
+.hero p {
+    color: rgba(34, 34, 34, 0.70);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+/* hero Sectio End  */
+
+/* Client Section Start */
+.clientReview {
+    background-color: #F1F9FF;
+    padding: 90px 0;
+}
+
+.clientReview h2 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.clientReview h2 span {
+    color: #09F;
+}
+
+#owl-demo .reviewInner {
+    padding: 60px 18px;
+    border-radius: 32px;
+    border: 2px solid #FF7A00;
+    background: #FFF;
+    margin: 20px;
+}
+
+.reviewInner p {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.reviewInner span {
+    color: #09F;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 150%;
+    display: block;
+}
+
+/* Client Section End */
