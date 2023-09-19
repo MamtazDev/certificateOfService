@@ -18,7 +18,7 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand " href="index.html">
                     <img class="img-fluid" src="./assets/logo.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -60,6 +60,7 @@
     </header>
 
     <main>
+        <!-- Hero Section Start -->
         <section>
             <div class="container">
                 <div class="hero">
@@ -85,7 +86,9 @@
                 </div>
             </div>
         </section>
-        <!-- Client Review -->
+        <!-- Hero Section End -->
+
+        <!-- Client Review Start -->
         <section>
             <div class="clientReview">
                 <div class="container">
@@ -297,9 +300,10 @@
         <section>
             <div class="videoOutter">
                 <div class="container">
-                    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-5">
-                        <div style="max-width: 568px;">
-                            <div class="videoInner d-inline-block text-center w-100" style=" background-image: url('./assets/videoImage.png');">
+                    <div class="row gy-5">
+                        <div class="col-12 col-md-6">
+                            <div class="videoInner d-inline-block text-center w-100"
+                                style=" background-image: url('./assets/videoImage.png');">
                                 <button type="button" class="btn playBtn" data-bs-toggle="modal"
                                     data-bs-target="#exampleModal1">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63"
@@ -310,9 +314,10 @@
                                             fill="white" />
                                     </svg>
                                 </button>
-                                <!-- Modal -->
-                                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
+
+
+                                <div class="modal fade" id="exampleModal1" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered modal-xl">
                                         <div class="modal-content">
                                             <div class="modal-body p-0">
@@ -324,7 +329,7 @@
                                                         title="YouTube video" allowfullscreen></iframe>
                                                 </div>
                                             </div>
-    
+
                                         </div>
                                     </div>
                                 </div>
@@ -334,10 +339,12 @@
                             </p>
                         </div>
 
-                        <div style="max-width: 568px;">
-                            <div class="videoInner d-inline-block text-center w-100" style=" background-image: url('./assets/videoImage2.png');">
+                        <div class="col-12 col-md-6">
+                            <div class="videoInner d-inline-block text-center w-100"
+                                style=" background-image: url('./assets/videoImage2.png');">
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn playBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <button type="button" class="btn playBtn" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="63" height="63" viewBox="0 0 63 63"
                                         fill="none">
                                         <circle cx="31.5" cy="31.5" r="31.5" fill="#82AEFF" />
@@ -347,8 +354,8 @@
                                     </svg>
                                 </button>
                                 <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                    aria-hidden="true">
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered modal-xl">
                                         <div class="modal-content">
                                             <div class="modal-body p-0">
@@ -360,7 +367,7 @@
                                                         title="YouTube video" allowfullscreen></iframe>
                                                 </div>
                                             </div>
-    
+
                                         </div>
                                     </div>
                                 </div>
@@ -379,7 +386,8 @@
     <footer>
         <div class="container">
             <div>
-                <div class="fooLink d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 gap-md-5 mb-5">
+                <div
+                    class="fooLink d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 gap-md-5 mb-5">
                     <a href="#">COOKIE POLICY</a>
                     <a href="#">HOLIDAY CLOSURE SCHEDULE</a>
                     <a href="#">PRIVACY POLICY</a>

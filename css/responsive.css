@@ -4,7 +4,7 @@
 
 @media only screen and (max-width:768px) {
     h1 {
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .hero p {
@@ -15,16 +15,20 @@
         font-size: 24px;
     }
 
-    .reviewInner p {
+    .reviewInner p, .videoOutter p  {
         font-size: 16px;
     }
 
-    .reviewInner span,
-    .videoOutter p {
+    .reviewInner span
+    {
         font-size: 18px;
     }
     .videoOutter {
         padding: 70px 0;
+    }
+
+    .playBtn {
+        margin: 70px 0;
     }
 
     footer {
@@ -48,6 +52,12 @@
 
 @media only screen and (max-width:425px) {}
 
-@media only screen and (max-width:375px) {}
+@media only screen and (max-width:375px) {
+    .navbar-brand img{
+        width: 280px !important;
+    }
+}
 
-@media only screen and (max-width:320px) {}
+@media only screen and (max-width:320px) {
+   
+}

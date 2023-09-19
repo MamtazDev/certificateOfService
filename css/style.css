@@ -210,6 +210,8 @@ h1 {
     height: 10px;
     left: 99% !important;
     top: -1%;
+    background-color: #FFF;
+    padding: 5px !important;
 }
 
 .videoInner {
@@ -217,7 +219,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 15px;
-    max-width: 568px;
 }
 
 .btn:first-child:active {
