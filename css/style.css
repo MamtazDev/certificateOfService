@@ -230,7 +230,6 @@ h1 {
 
 .playBtn:hover {
     stroke: #09F;
-    fill: red;
 }
 
 .videoOutter p {
@@ -241,3 +240,48 @@ h1 {
 }
 
 /* Video Section End */
+
+
+/* Footer Start */
+
+footer {
+    background: #002843;
+    padding-top: 120px;
+    padding-bottom: 55px;
+}
+
+.fooLink a {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.fooLink a:hover {
+    text-decoration: underline;
+}
+
+.fooInner p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.20);
+}
+
+.copyRight {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Footer End */

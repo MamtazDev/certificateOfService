@@ -1,24 +1,53 @@
 @media only screen and (max-width:1024px) {}
+
 @media only screen and (max-width:992px) {}
+
 @media only screen and (max-width:768px) {
     h1 {
         font-size: 36px;
     }
-    .hero p{
+
+    .hero p {
         font-size: 16px;
     }
 
-    .clientReview h2{
+    .clientReview h2 {
         font-size: 24px;
     }
-    .reviewInner p{
+
+    .reviewInner p {
         font-size: 16px;
     }
-    .reviewInner span,.videoOutter p {
+
+    .reviewInner span,
+    .videoOutter p {
         font-size: 18px;
     }
+    .videoOutter {
+        padding: 70px 0;
+    }
+
+    footer {
+        padding-top: 60px;
+    }
+
+    .fooLink a {
+        font-size: 16px;
+    }
+
+    .fooInner p {
+        font-size: 12px;
+    }
+
+    .copyRight {
+        font-size: 10px;
+    }
 }
+
 @media only screen and (max-width:600px) {}
-@media only screen and (max-width:425px){}
+
+@media only screen and (max-width:425px) {}
+
 @media only screen and (max-width:375px) {}
-@media only screen and (max-width:320px){}
+
+@media only screen and (max-width:320px) {}
